@@ -1,3 +1,12 @@
 # A To-Do Web 
 
-App  Tracks A List Of Programming Languages To Learn in 2018
+App  that tracks what skills to learn
+
+Use the app to mark the complted skills you have learn
+
+Add/delete skills
+
+Unlimited number of skills you can add
+
+
+
