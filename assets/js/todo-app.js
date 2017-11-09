@@ -5,7 +5,7 @@
 });
 
 //delete the completed to-dos
-$("ul").on("click", ".x-button",function(e){
+$("ul").on("click", ".trash-button",function(e){
     $(this).parent().fadeOut(500,function(){
     $(this).remove();
     }); 
@@ -19,6 +19,6 @@ $("input[type='text']").on("keypress", function(e){
         var todoText = $(this).val();
         $(this).val("");
         //create new "li" and append it to our parent "ul"
-        $("ul").append("<li><span class='x-button'>X </span>" +todoText+"</li>");
+        $("ul").append("<li><span class='trash-button'><i class='fa fa-trash'></i> </span>" +todoText+"</li>");
     }
 });
