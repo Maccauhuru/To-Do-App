@@ -22,3 +22,8 @@ $("input[type='text']").on("keypress", function(e){
         $("ul").append("<li><span class='trash-button'><i class='fa fa-trash'></i> </span>" +todoText+"</li>");
     }
 });
+
+$('.fa-plus-square').on("click", function(){
+    $("input[type='text']").fadeToggle();
+})
+
